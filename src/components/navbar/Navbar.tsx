@@ -18,7 +18,7 @@ function Navbar() {
         {/* Links de Navegação */}
         <nav className="hidden md:flex items-center gap-6 font-bold text-md text-on-surface-variant">
           <a href="#" className="hover:text-primary transition-colors">Produtos</a>
-          <a href="#" className="hover:text-primary transition-colors">Categorias</a>
+          <Link to="/categorias" className="hover:text-primary transition-colors">Categorias</Link>
         </nav>
 
       </header>
