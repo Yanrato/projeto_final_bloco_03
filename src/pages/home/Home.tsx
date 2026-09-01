@@ -1,12 +1,13 @@
+import ListaProdutos from "../../components/produtos/listaprodutos/ListaProdutos"
+
 function Home() {
 
   return (
     <>
-      <div className="flex  bg-letra-700 justify-center">
+      <div className="flex flex-col bg-letra-700 justify-center items-center">
 
         <div className="container grid grid-cols-1 md:grid-cols-2 text-clara-50">
 
-          {/* conteudo de texto*/}
           <div className="flex flex-col gap-4 items-center justify-center py-4" >
             <h2 className="text-5xl font-bold">Seja Bem-Vinde!</h2>
 
@@ -18,8 +19,6 @@ function Home() {
             </div>
           </div>
 
-
-          {/* Imagem da pagina home*/}
           <div className="flex justify-center">
             <img
               src="https://ik.imagekit.io/eosfuraqd/Pharmacist-bro.svg"
@@ -28,7 +27,7 @@ function Home() {
           </div>
 
         </div>
-
+        <ListaProdutos/>
       </div>
       
     </>
