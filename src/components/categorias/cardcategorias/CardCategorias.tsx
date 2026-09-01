@@ -16,7 +16,7 @@ function CardCategorias({ categoria }: CardCategoriasProps) {
       
 
       <div className="relative z-10 min-w-0 flex-1">
-        <p className="text-xl font-bold text-on-surface transition-colors duration-300 group-hover:text-primary">
+        <p className="text-xl font-bold text-black transition-colors duration-300 group-hover:text-black">
           {categoria.nome}
         </p>
       </div>
@@ -26,7 +26,7 @@ function CardCategorias({ categoria }: CardCategoriasProps) {
           type="button"
           title="Editar categoria"
           onClick={() => navigate(`/editarcategoria/${categoria.id}`)}
-          className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-on-primary border border-transparent hover:border-letra-700 hover:border-4  shadow-sm transition-all duration-200 hover:scale-105 hover:opacity-90 cursor-pointer"
+          className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-black border border-transparent hover:border-letra-700 hover:border-4  shadow-sm transition-all duration-200 hover:scale-105 hover:opacity-90 cursor-pointer"
         >
           <PencilIcon size={22} weight="fill" />
         </button>
@@ -35,7 +35,7 @@ function CardCategorias({ categoria }: CardCategoriasProps) {
           type="button"
           title="Deletar categoria"
           onClick={() => navigate(`/deletarcategoria/${categoria.id}`)}
-          className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-on-primary border border-transparent hover:border-letra-700 hover:border-4 shadow-sm transition-all duration-200 hover:scale-105 hover:opacity-90 cursor-pointer"
+          className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-black border border-transparent hover:border-letra-700 hover:border-4 shadow-sm transition-all duration-200 hover:scale-105 hover:opacity-90 cursor-pointer"
         >
           <TrashIcon size={22} weight="fill" />
         </button>

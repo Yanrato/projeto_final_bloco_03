@@ -30,7 +30,7 @@ export default function ListaCategorias() {
 		} catch (error) {
 			if (axios.isAxiosError(error) && error.response?.status === 401) {
 				alert(`Erro ao consultar as categorias: ${error.response.status}`);
-				navigate('/login');
+				navigate('/');
 			}
 		} finally {
 			setIsLoading(false);

@@ -1,7 +1,7 @@
 import { WarningCircleIcon } from '@phosphor-icons/react'
 import type Categorias from '../../../models/Categoria';
 import axios from 'axios';
-import { useState, useContext, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { buscar, deletar } from '../../../service/Service';
 import { ClipLoader } from 'react-spinners';
