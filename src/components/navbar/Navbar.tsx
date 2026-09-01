@@ -1,3 +1,4 @@
+import { ShoppingCartIcon } from "@phosphor-icons/react";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -19,6 +20,8 @@ function Navbar() {
         <nav className="hidden md:flex items-center gap-8 font-bold text-md text-black">
           <a href="#" className="hover:underline transition-colors">Produtos</a>
           <Link to="/categorias" className="hover:underline transition-colors">Categorias</Link>
+
+          <ShoppingCartIcon size={28} weight="regular"/>
         </nav>
 
       </header>
