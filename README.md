@@ -98,20 +98,6 @@ Sistema responsável pelo gerenciamento das categorias utilizadas para organizar
 
 ---
 
-### 🔐 Autenticação
-
-A aplicação possui um fluxo de autenticação para controlar o acesso às funcionalidades do sistema.
-
-Inclui:
-
-* Cadastro de usuário;
-* Login;
-* Logout;
-* Controle de usuário autenticado;
-* Proteção de funcionalidades que exigem autenticação.
-
----
-
 ### 🔔 Feedback visual
 
 A aplicação utiliza componentes visuais para informar o usuário sobre o resultado das operações realizadas, proporcionando uma experiência mais clara durante a utilização do sistema.
@@ -142,10 +128,8 @@ projeto_final_bloco_03/
 │   ├── models/
 │   │
 │   ├── pages/
-│   │   ├── home/
-│   │   ├── login/
-│   │   ├── cadastro/
-│   │   └── ...
+│   │   └──home/
+│   │   
 │   │
 │   ├── services/
 │   │
@@ -281,7 +265,6 @@ Algumas funcionalidades podem ser aprimoradas futuramente, como:
 * Melhor tratamento de erros;
 * Testes automatizados;
 * Melhorias de performance;
-* Deploy da aplicação.
 
 ---
 
